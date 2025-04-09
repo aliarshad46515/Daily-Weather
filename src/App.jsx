@@ -7,7 +7,7 @@ import SearchBar from "./Components/SearchBar";
 import Forecast from "./Components/ForeCast";
 import ForecastSkeleton from "./Components/ForecastSkeleton";
 
-const API_KEY = "3c14856dccf1d5d4c3194b5e1d6f6afd";
+const API_KEY = import.meta.env.VITE_WEATHER_API;
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 function App() {
